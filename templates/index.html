@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% load humanize %}
+
+{% block content %}
+
+
+
+		<div style="margin-top: 20px; margin-bottom:-80px;"class="fh5co-listing">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 fh5co-item-wrap">
+						<a href="{% url 'religious_tour' %}"class="fh5co-listing-item">
+							<img src="{% static 'images/boudha.jpg'%}" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
+							<div class="fh5co-listing-copy">
+								<h2>Religious-Tours</h2>
+								<span class="icon">
+									<i class="icon-chevron-right"></i>
+								</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-4 fh5co-item-wrap">
+						<a href="{% url 'hilly_tour' %}"class="fh5co-listing-item">
+							<img src="{% static 'images/hills.jpg'%}" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
+							<div class="fh5co-listing-copy">
+								<h2>Hilly-Tours</h2>
+								<span class="icon">
+									<i class="icon-chevron-right"></i>
+								</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-4 fh5co-item-wrap">
+						<a href="{% url 'mountain_tour' %}"class="fh5co-listing-item">
+							<img src="{% static 'images/pokhara.jpg'%}" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
+							<div class="fh5co-listing-copy">
+								<h2>Mountain-Tours</h2>
+								<span class="icon">
+									<i class="icon-chevron-right"></i>
+								</span>
+							</div>
+						</a>
+					</div>
+					<!-- END 3 row -->
+
+					<div class="col-md-4 col-sm-4 fh5co-item-wrap">
+						<a href="{% url 'terai_tour' %}"class="fh5co-listing-item">
+							<img src="{% static 'images/terai.jpg'%}" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
+							<div class="fh5co-listing-copy">
+								<h2>Terai-Tour</h2>
+								<span class="icon">
+									<i class="icon-chevron-right"></i>
+								</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-4 fh5co-item-wrap">
+						<a href="{% url 'pokhara_tour' %}"class="fh5co-listing-item">
+							<img src="{% static 'images/pokhara1.jpg'%}" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
+							<div class="fh5co-listing-copy">
+								<h2>Famous-Destination-Tour</h2>
+								<span class="icon">
+									<i class="icon-chevron-right"></i>
+								</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-4 fh5co-item-wrap">
+						<a href="{% url 'jungle_safari' %}"class="fh5co-listing-item">
+							<img src="{% static 'images/chitwan2.jpg'%}" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
+							<div class="fh5co-listing-copy">
+								<h2>Jungal-Safari</h2>
+								<span class="icon">
+									<i class="icon-chevron-right"></i>
+								</span>
+							</div>
+						</a>
+					</div>
+					<!-- END 3 row -->
+
+
+				</div>
+			</div>
+		</div>
+
+
+		
+		
+		
+{% endblock %}
